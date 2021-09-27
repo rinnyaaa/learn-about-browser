@@ -18,8 +18,8 @@ app.use(async (ctx, next) => {
   await next();
 });
 
-app.use(conditional());
-app.use(etag());
+// app.use(conditional());
+// app.use(etag());
 
 app.use(resource(path.join(__dirname, "./static")));
 
