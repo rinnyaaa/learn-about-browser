@@ -12,3 +12,10 @@
 
 ![](../../images/cache_flow.png)
 
+
+## show me the code
+- node静态服务器演示参考 examples/http-cache/
+  执行 1、npm i 2、npm run serve
+    
+- nginx设置 deploy/nginx.conf
+
